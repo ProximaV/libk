@@ -82,6 +82,7 @@ set( CMAKE_NM           "${MEPSDK}/bin/mep-elf-nm${TOOL_OS_SUFFIX}"      CACHE P
 set( CMAKE_OBJCOPY      "${MEPSDK}/bin/mep-elf-objcopy${TOOL_OS_SUFFIX}" CACHE PATH "objcopy" )
 set( CMAKE_OBJDUMP      "${MEPSDK}/bin/mep-elf-objdump${TOOL_OS_SUFFIX}" CACHE PATH "objdump" )
 set( CMAKE_RANLIB       "${MEPSDK}/bin/mep-elf-ranlib${TOOL_OS_SUFFIX}"  CACHE PATH "ranlib" )
+set( CMAKE_MAKE_PROGRAM "/usr/bin/make" )
 
 # cache flags
 set( CMAKE_CXX_FLAGS           ""                        CACHE STRING "c++ flags" )
